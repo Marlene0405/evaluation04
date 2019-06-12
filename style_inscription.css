@@ -1,0 +1,139 @@
+@font-face
+{
+    font-family: 'friday_vibesregular';
+    src: url('fonts/friday/friday_vibes-webfont.ttf') format('ttf'),
+         url('fonts/friday/friday_vibes-webfont.woff2') format('woff2'),
+         url('fonts/friday/friday_vibes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*structure du site: Page inscription*/
+#conteneur_corp
+{
+    /*background: yellowgreen;*/
+    text-align: center;
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+    margin: 0px 10px 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #acb1b4;
+    background-color: #ffffff;
+    padding: 45px;
+    /*height: 100%;*/
+}
+
+#conteneur_corp p
+{
+    font-size: small;
+    color: #e8511d;
+}
+
+/*Message d'alerte utilisateur*/
+#message
+{
+    font-size: xx-large;
+    color: #e8511d;
+    text-align: center;
+    padding: 200px;
+}
+
+.case /*champs formulaire*/
+{
+    border-radius: 15px;
+    border: 2px solid #acb1b4;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.button /*Bouton valider formulaire*/
+{
+    background-color: #4CAF50; /* Green */
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #6c2255;
+    color: white;
+    border: 2px solid #6c2255;
+    border-radius: 15px;
+    box-shadow: 0 3px #eff2f4;
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+}
+
+.case1 /*champs connexion/deconnexion*/
+{
+    border-radius: 15px;
+    border: 2px solid #acb1b4;
+    padding: 7px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+    color : #6c2255;
+}
+
+.button1 /*Bouton connexion/deconnexion*/
+{
+    background-color: #4CAF50; /* Green */
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 30px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #6c2255;
+    color: white;
+    border: 2px solid #6c2255;
+    border-radius: 15px;
+    box-shadow: 0 3px #eff2f4;
+    font-family: Arial, "Arial Black", Verdana, sans-serif;
+}
+
+.case:hover, .case1:hover
+{
+    border: 2px solid #6c2255!important;
+}
+
+.button:hover, .button1:hover
+{
+    background-color: #e8511d;
+    border: 2px solid #e8511d;
+    color: white;
+}
+
+.button:active, .button1:active
+{
+    background-color: #e8511d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+a /*Liens par défaut (non survolés)*/
+{
+    text-decoration: none;
+   font-family: Arial, "Arial Black", Verdana, sans-serif;
+   color: white ;
+}
+
+p a:hover /*Apparence au survol des liens*/
+{
+    text-decoration: underline;
+    color: #e8511d;
+}
+
+a:active /*Quand le visiteur clique sur le lien*/
+{
+    background-color: #31708f;
+}
+
+a:visited /*Quand le visiteur a déjà vu la page concernée*/
+{
+    color: #AAA; /*Appliquer une couleur grise */
+}
